@@ -225,6 +225,7 @@ header {
     background-color: transparent;
     border: 1px solid #999999;
     border-radius: 5px;
+    color: white;
 }
 .form-text {
 	width: 78%;
@@ -238,9 +239,10 @@ header {
     border-radius: 5px;
     font-family: Lato;
     height: 105px;
+    color: white;
 }
 .checkbox {
-	display: block;
+    display: block;
     float: left;
     margin-left: 68px;
     font-size: 14px;
