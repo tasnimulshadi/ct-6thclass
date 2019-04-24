@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*----------------Header start-------------------*/
+
+header {
+	width: 100%;
+	float: left;
+}
+.logo {
+
+}
+.logo img {
+	margin: 30px 0;
+}
+
+/*----------------Header end-------------------*/
+
+
+/*----------------section-hero start-------------------*/
+
+.hero {
+	width: 100%;
+	float: left;
+	background: url("../img/banner.png")no-repeat;
+	background-size: cover;
+}
+.hero-box {
+	width: 700px;
+	margin: 0 auto;
+	color: white;
+	font-family: Lato;
+	text-align: center;
+}
+.hero-box h1 {
+	font-size: 100px;
+	font-weight: bold;
+	padding: 28px 0px;
+	margin: 146px 65px 0px 65px;
+	border-bottom: 2px solid #15a4fa;
+}
+.hero-box p {
+	font-size: 18px;
+	margin: 39px 0;
+}
+.hero-box button {
+	font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    color: white;
+    padding: 13px 27px;
+    margin-top: 23px;
+    border-radius: 3px;
+    -webkit-transition: 0.7S ease;
+    -moz-transition: 0.7S ease;
+    -o-transition: 0.7S ease;
+}
+.hero-box button:hover {
+	background-color: #14a3fa;
+}
+
+.hero-box a p {
+	margin: 160px 0 75px 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*----------------section-hero end-------------------*/
+
+
+/*----------------section-about section start-------------------*/
+
+.about-section {
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+.about {
+	width: 100%;
+    float: left;
+    padding: 75px 0;
+    text-align: center;
+	font-family: Lato;
+}
+.about h1 {
+	font-size: 36px;
+    color: #2d3950;
+    padding-bottom: 25px;
+}
+.about p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+}
+
+/*----------------section-about section end-------------------*/
+
+
+/*----------------section-work start-------------------*/
+
+.work {
+	width: 100%;
+	float: left;
+	padding: 65px 0;
+}
+
+.work-box {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	font-family: Lato;
+    margin-top: 30px;
+}
+.work-box span {
+	background-image: url(../img/icon-bg.png);
+    font-size: 27px;
+    padding: 30px 36px;
+    color: white;
+}
+.mobile {
+	padding: 0 39px;
+    font-size: 50px;
+}
+
+.work-box h3 {
+	color: #2d3950;    
+	margin-top: 55px;
+    font-size: 17px;
+}
+.work-box p {
+	color: #999999;
+	padding: 0 40px;
+	font-size: 13px;
+    line-height: 19px;
+    margin-top: 15px;
+}
+
+/*----------------section-work end-------------------*/
+
+
+/*----------------section-portfolio start-------------------*/
+
+.portfolio {
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: #f6f9f9;
+	font-family: Lato;
+	padding: 65px 0;
+}
+.portfolio h1 {
+	font-size: 36px;
+    color: #2d3950;
+    padding-bottom: 25px;
+}
+.portfolio p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+}
+.portfolio-box {
+	width: 100%;
+	float: left;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+.portfolio-img {
+    width: 31%;
+	float: left;
+    padding: 13px;
+}
+.portfolio-img img {
+	width: 100%;
+	display: block;
+}
+
+
+/*----------------section-portfolio end-------------------*/
+
+/*----------------section-contact start-------------------*/
+
+.contact {
+	width: 100%;
+	float: left;
+	background: url("../img/form-banner.png")no-repeat;
+	background-size: cover;
+	font-family: Lato;
+	padding: 65px 0;
+}
+
+.contact h1 {
+	font-size: 36px;
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.contact p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+    text-align: center;
+}
+
+.contact-box {
+	width: 700px;
+	margin: 0 auto;
+	padding: 33px 0 70px 0;
+}
+
+.form-input {
+	width: 78%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+.form-text {
+	width: 78%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-family: Lato;
+    height: 105px;
+}
+.checkbox {
+	display: block;
+    float: left;
+    margin-left: 68px;
+    font-size: 14px;
+    color: white;
+}
+.cb {
+	width: 15px;
+    height: 15px;
+}
+.checkbox span {
+    padding-left: 12px;
+}
+.form-btn {
+	display: block;
+    float: left;
+    margin-left: 264px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 3px;
+    -webkit-transition: 0.7S ease;
+    -moz-transition: 0.7S ease;
+    -o-transition: 0.7S ease;
+}
+.form-btn:hover {
+	background-color: #14a3fa;
+}
+
+
+/*----------------section-contact end-------------------*/
+
+/*----------------footer start-------------------*/
+
+footer {
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+
+.copywrite {
+	width: 50%;
+	float: left;
+}
+.copywrite p {
+	color: #999999;
+	font-family: Lato;
+    font-size: 14px;
+    margin: 35px 0;
+    margin-left: 30px;
+}
+.social {
+	width: 50%;
+	float: left;
+}
+.social ul {
+	list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+.social ul li {
+	display: inline-block;
+	margin: 31px 0;
+}
+.social ul li a {
+	text-decoration: none;
+    color: white;
+    background-color: #15a4fa;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+#fb {
+	padding: 10px 12px;
+}
+
+/*----------------footer end-------------------*/
